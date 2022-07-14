@@ -75,6 +75,14 @@
   text-decoration: none;
 }
 
+.logo-web {
+  color: var(--accent);
+}
+
+.logo-studio {
+  color: var(--add-color-logo);
+}
+
 .site-nav .link {
   color: var(--title-text-color);
   text-decoration: none;
@@ -200,6 +208,13 @@
   color: var(--accent);
 }
 
+.footerlogo-web {
+  color: var(--accent);
+}
+
+.footerlogo-studio {
+  color: var(--add-color-text);
+}
 /* portfolio */
 
 .button-portfolio {
@@ -215,7 +230,8 @@
   cursor: pointer;
 }
 
-.button-portfolio.filter {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: var(--add-color-text);
   background-color: var(--accent);
 }
